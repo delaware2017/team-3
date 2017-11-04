@@ -58,12 +58,12 @@ public class MongoDB {
     	Query query = new Query(Criteria.where("program").is(program));
     	return (ArrayList<Retailer>) mongoOp.findAll(Retailer.class,"Retailer");
     }
-    public static boolean logIn(String userName, String pwd){
+    public static String logIn(String userName, String pwd){
     	Query query = new Query(Criteria.where("userName").is(userName).andOperator(Criteria.where("password").is(pwd)));
     	if(mongoOp.exists(query, "Person"))
-    		return true;
+    		return "true";
     	else
-    		return false;
+    		return "false";
     }
     
     public static void reload(String id, double amount){
