@@ -14,4 +14,10 @@ public class Purchase {
 	public String getName(){
 		return userName;
 	}
+	public double getAmount(){
+		return amount;
+	}
+	public Date getDate(){
+		return date;
+	}
 }

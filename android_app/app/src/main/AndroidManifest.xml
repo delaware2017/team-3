@@ -26,7 +26,8 @@
             android:label="@string/title_activity_leftscroller"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".createlogin" />
-        <activity android:name=".congrats"></activity>
+        <activity android:name=".congrats" />
+        <activity android:name=".DoctorReload"></activity>
     </application>
 
 </manifest>
