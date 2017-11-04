@@ -3,201 +3,48 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\Neha\AppData\Local\Android\Sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_44570ec0013b19613020d73aa033abac65b9ef29\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\AppData\Local\Android\Sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_130e7ce69beb48a687f22d075a6bc37151979d0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\796eaaad09681b9efa4b255a2558f43e4acc764b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_414b454d6dfb557fd425fcccb0e3d928aa4bd356\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\9ff99937bff204176d9e9b5c551c7bbc39a805a2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_2cf0f39f8ba0f1b6e593f803834cf44c67308ddf\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\f0c1c186160b031f08d6ac1e58026890b260f23e\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e8dd18acfdf0bd7748403cd1984152bf2e3b6259\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\6bbe54f5092ebef68e046ed14f621e2c78bd67d2\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_feb1c8bcdcc4b6b575ac5459b8c002fef771c801\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d6b722f4a17083681d5d414b11addca55990daa6">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_ccc0cb64e57e96e93baae987946907f39b3075a3\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\09e76783cebabbcd732ed6d6374a7e6870f33135\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_8d1b54831b6f25316da4ce14173231cc5692be50\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\290d704648077fa38c45218fac6dffc764a1b658\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_908b30a77fbfd60b4c71d2493fda103ce38f82dc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\707b1cd1d01acd0fe3adbdc2c2c08f0b78cceb8b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0637b8061957f2c64488ca19edd29988f8a94a90\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\f9c2d8aa2fbfe0032897c4015e1d56749d22e97c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f5b5e2371fe5482604207c768c57b91713fba702\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\2092c4323c98bbeeb55692d3ca973b270558b52d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_06501d677eddc0598d2707470091e3eca0ba1a6b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\7e664a71830fbe7f2f1abe98ebba84377c3e59e7\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_debde7566c02979fb5b018ed4cf2c74012336b7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\a78e7a3b8cf2ffe639464aa7062c9eba06b2e9a3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f1d1c3024e96abcad39593f381fedac1c854bbf2\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-<<<<<<< HEAD
-        jar="/Users/Atchima/.android/build-cache/546ef8d77dbdd04570c83e5f3e586de28f5e4bf6/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_563d3ea0cde552d5e69d25b29d4fffe7001877ec/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/0b5d0294ba1b634258d7c90336ae269de5c62696/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_762372d67ea4c1d69d6a96bf900433ec4622d67b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/61ea0ced3175254f71ab921ab11b7df0511f0e0a/output/jars/classes.jar"
+        jar="/Users/mike/.android/build-cache/891303700a7da0e19cccbbf035791864f2b8681f/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="25438f55fc6d906a0e72f30b21487541430ede43">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c879186c7f7b9fa9f6bc70e60adef032bcf5b4e/classes.dex" />
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4ffd657209ccddf6651044e8d2cf9f1b23374654/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="70a261bd235018f85d8b121e3847bbf3d449a4e6">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1451265769d8d1f51638fa935ca060db8935619d/classes.dex" />
-=======
-        jar="C:\Users\Neha\.android\build-cache\9ae8042d500f42edf21e4c5b79a14c816db09ec9\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_88e7f3548c8f59e7961a09361cbb5b84740891dc\classes.dex" />
+        sha1="55b9620723fe66e19723f05e391bc895a8e0cb47">
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2464c317e172654204f4b3365be1d02fba6cd616/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Neha\.android\build-cache\e2c23bdd3d491a65d828fb487a7c82cff8bd55ab\output\jars\classes.jar"
+        jar="/Users/mike/.android/build-cache/0bc4ac0408d3badec160f1f9e95c7a1f34b55076/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_6f5a0425ddf05122fd18b98e778c110865c639d4\classes.dex" />
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_079f5f7a1803e58870dc60b349b98ac48a2f3733/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_82d90e197481c27204b8dba834674df639da6849\classes.dex" />
->>>>>>> 27590c8f0fe43314a9d6af9731a95d1cece494e5
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/11877c86f8c024bfb887013a486a81a19f6824e4/output/jars/classes.jar"
+        jar="/Users/mike/.android/build-cache/306c00364b3fc5e47420e11fcd9cbd8f61808bef/output/jars/classes.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b1e3d565717206a7f66975c3f7fc6edc0557f87d/classes.dex" />
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e8e66b1c68d52aca490ad973d70c170117579d0a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/mike/.android/build-cache/13994ec3df98d729325c49542ad5bc31f364f738/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4394e5e361ae4ef9fbad50d41eaee0e7b95ea182/classes.dex" />
     </item>
 
 </items>
