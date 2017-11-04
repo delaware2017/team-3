@@ -22,8 +22,6 @@ public class SignIn extends AppCompatActivity {
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#8BC34A")));
         Button login = (Button) findViewById(R.id.login);
         Button register = (Button) findViewById(R.id.register);
-        Button doctorReload = (Button) findViewById(R.id.doctor);
-
         final EditText username = (EditText) findViewById(R.id.username);
         final EditText password = (EditText) findViewById(R.id.password);
 
@@ -31,7 +29,17 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 // Checks username and password with DB
-                
+                if (!username.getText().toString().trim().equals("") ||
+                        !password.getText().toString().trim().equals("")) {
+                    Intent phone = new Intent(SignIn.this, leftscroller.class);
+                    phone.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(phone);
+                    finish();
+                }
+                else {
+                    Toast.makeText(getApplicationContext(), "Please enter username and " +
+                            "password", Toast.LENGTH_SHORT).show();
+                }
             }
         });
 
@@ -39,13 +47,6 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SignIn.this, Register.class));
-            }
-        });
-
-        doctorReload.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                startActivity(new Intent(SignIn.this, DoctorReload.class));
             }
         });
     }
