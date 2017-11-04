@@ -18,6 +18,9 @@ import org.springframework.web.bind.annotation.RestController;
 import PostBody.PostBalance;
 import PostBody.PostLogIn;
 import PostBody.PostRegister;
+import PostBody.PurchaseObject;
+import PostBody.RetailerObject;
+import PostBody.LogInSuccess;
 import TableObject.Person;
 import TableObject.Purchase;
 import TableObject.Retailer;
@@ -26,8 +29,8 @@ import TableObject.Retailer;
 public class ServerController {
 	private static final Logger logger = LoggerFactory.getLogger(ServerController.class);
 
-	//From POS
-	 @RequestMapping(value = "/Decrement/{userName}/{amount}/{date}",method = RequestMethod.GET)
+	//From POS get Amount to decrement
+	 @RequestMapping(value = "/decrement/{userName}/{amount}/{date}",method = RequestMethod.GET)
 	    public boolean getDecrement(
 	    		@PathVariable(value="userName") String userName,
 	    		@PathVariable(value="amount") String amount,
@@ -47,8 +50,8 @@ public class ServerController {
 	       return true;
 	    }
 	 
-	 // From Web
-	 @RequestMapping(value = "/Reload/{userName}/{amount}",method = RequestMethod.GET)
+	 // From Web Get amount to reload
+	 @RequestMapping(value = "/reload/{userName}/{amount}",method = RequestMethod.GET)
 	    public boolean getReload(
 	    		@PathVariable(value="userName") String userName,
 	    		@PathVariable(value="amount") String amount) {
@@ -58,38 +61,44 @@ public class ServerController {
 	       return true;
 	    }
 	 // From Mobile
-	 
-	 @RequestMapping(value = "/getBalance/{name}/",method = RequestMethod.POST)
-	    public double getBalance(@RequestBody PostBalance body ){
-		 		String name = body.getName();
-		 		logger.info("Name is {}.", name);
-		 		Person user = MongoDB.getPerson(name);
+	 // Get current balance
+	 @RequestMapping(value = "/getBalance/{userName}/",method = RequestMethod.GET)
+	    public Person getBalance(@PathVariable(value="userName") String userName ){
+		 		Person user = MongoDB.getPerson(userName);
 		 		
-	       return user.getBalance();
+	       return user;
 	    }
-	 @RequestMapping(value = "/logIn/",method = RequestMethod.POST)
-	    public boolean getBalance(@RequestBody PostLogIn body ){
-		 		return MongoDB.logIn(body.getId(),body.getPassword());
+	 // Check Login
+	 @RequestMapping(value = "/logIn/{userName}/{password}",method = RequestMethod.GET)
+	    public LogInSuccess getBalance(
+	    		@PathVariable(value="userName") String userName,
+	    		@PathVariable(value="password") String password){
+		 		LogInSuccess success = new LogInSuccess (MongoDB.logIn(userName,password),userName);
+		 		return success;
 	    }
 	 
-	 @RequestMapping(value = "/register",method = RequestMethod.POST)
-	    public @ResponseBody void register(PostRegister body ){
-		 		String id = body.getId();
-		 		String name = body.getName();
-		 		String password = body.getPassword();
-		 		String program = body.getProgram();
-		 		String famSize = body.getFamSize();
+	 // Register new Account
+	 @RequestMapping(value = "/register/{userName}/{password}/{name}/{program}/{famSize}",method = RequestMethod.GET)
+	    public void register(
+	    		@PathVariable(value="userName") String userName,
+	    		@PathVariable(value="password") String password,
+	    		@PathVariable(value="name") String name,
+	    		@PathVariable(value="program") String program,
+	    		@PathVariable(value="famSize") String famSize
+	    		){
 		 		logger.info("Name is {}, Program is {}.", name, program);
-		 		Person user = new Person(name,  0,  id,  password,  Integer.parseInt(famSize),program);
+		 		Person user = new Person(name,  0,  userName,  password,  Integer.parseInt(famSize),program);
 		 		MongoDB.addPerson(user);
 	    }
+	 // Get list of all retailers
 	 @RequestMapping(value = "/getRetailer/{program}",method = RequestMethod.GET)
-	    public ArrayList<Retailer> getRetailer(@PathVariable(value="program") String program){
-		 		return MongoDB.getRetailer(program);
+	    public RetailerObject getRetailer(@PathVariable(value="program") String program){
+		 		return new RetailerObject(MongoDB.getRetailer(program));
 	    }
+	 //Get list of purchases
 	 @RequestMapping(value = "/getPurchase/{userName}",method = RequestMethod.GET)
-	    public ArrayList<Purchase> getPurchase(@PathVariable(value="userName") String userName){
-		 		return MongoDB.getPurchase(userName);
+	    public PurchaseObject getPurchase(@PathVariable(value="userName") String userName){
+		 		return new PurchaseObject(MongoDB.getPurchase(userName));
 	    }
 	 
 	 
