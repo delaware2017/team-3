@@ -11,7 +11,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 public class SignIn extends AppCompatActivity {
-
+    public static String username;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,6 +22,8 @@ public class SignIn extends AppCompatActivity {
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#8BC34A")));
         Button login = (Button) findViewById(R.id.login);
         Button register = (Button) findViewById(R.id.register);
+        Button doctorReload = (Button) findViewById(R.id.doctor);
+
         final EditText username = (EditText) findViewById(R.id.username);
         final EditText password = (EditText) findViewById(R.id.password);
 
@@ -47,6 +49,13 @@ public class SignIn extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 startActivity(new Intent(SignIn.this, Register.class));
+            }
+        });
+
+        doctorReload.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(SignIn.this, DoctorReload.class));
             }
         });
     }

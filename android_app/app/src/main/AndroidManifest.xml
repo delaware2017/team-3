@@ -44,6 +44,7 @@
             android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name=".createlogin" />
         <activity android:name=".congrats" />
+<<<<<<< HEAD
 
         <meta-data
             android:name="com.google.android.gms.version"
@@ -70,6 +71,9 @@
             android:name=".google_maps"
             android:label="@string/title_activity_google_maps" />
         <activity android:name=".listretailer"></activity>
+=======
+        <activity android:name=".DoctorReload"></activity>
+>>>>>>> cff81e6e96d626db9e1fb87f846105e976047340
     </application>
 
 </manifest>

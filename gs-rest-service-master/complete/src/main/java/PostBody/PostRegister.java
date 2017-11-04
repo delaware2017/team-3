@@ -5,7 +5,7 @@ public class PostRegister {
 	private String id;
 	private String password;
 	private String program;
-	private int famSize;
+	private String famSize;
 	
 	
 	public String getName(){
@@ -20,7 +20,7 @@ public class PostRegister {
 	public String getProgram(){
 		return program;
 	}
-	public int getFamSize(){
+	public String getFamSize(){
 		return famSize;
 	}
 }

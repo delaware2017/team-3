@@ -37,8 +37,12 @@ public class MongoDB {
     }
     public static void addPerson(Person person){
     	mongoOp.getCollection("Person");
-    	mongoOp.insert(person,"Person");
+    	Query query = new Query(Criteria.where("name").is(person.getName()));
+    	if (!mongoOp.exists(query, "Person")){
+    		mongoOp.insert(person,"Person");
+    	}
     }
+    
     public static void addRetailer(Retailer retailer){
     	Query query = new Query(Criteria.where("name").is(retailer.getName()));
     	if (!mongoOp.exists(query, "Retailer")){
@@ -54,12 +58,34 @@ public class MongoDB {
     	Query query = new Query(Criteria.where("program").is(program));
     	return (ArrayList<Retailer>) mongoOp.findAll(Retailer.class,"Retailer");
     }
-    public static boolean logIn(String userName, String pwd){
+    public static String logIn(String userName, String pwd){
     	Query query = new Query(Criteria.where("userName").is(userName).andOperator(Criteria.where("password").is(pwd)));
     	if(mongoOp.exists(query, "Person"))
-    		return true;
+    		return "true";
     	else
-    		return false;
+    		return "false";
+    }
+    
+    public static void reload(String id, double amount){
+    	mongoOp.getCollection("Person");
+    	Query query = new Query(Criteria.where("userName").is(id));
+    	Person user = mongoOp.findOne(query, Person.class,"Person");
+    	user.setBalance(user.getBalance()+amount);
+    	mongoOp.remove(query,"Person");
+    	mongoOp.insert(user,"Person");
+    }
+    public static void decrement(String id, double amount){
+    	mongoOp.getCollection("Person");
+    	Query query = new Query(Criteria.where("userName").is(id));
+    	Person user = mongoOp.findOne(query, Person.class,"Person");
+    	user.setBalance(user.getBalance()-amount);
+    	mongoOp.remove(query,"Person");
+    	mongoOp.insert(user,"Person");
+    }
+    public static ArrayList<Purchase> getPurchase(String userName){
+    	Query query = new Query(Criteria.where("userName").is(userName));
+    	ArrayList<Purchase> purchases = (ArrayList<Purchase>) mongoOp.find(query,Purchase.class,"Purchase");
+    	return purchases;
     }
     
 }
