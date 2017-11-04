@@ -1,9 +1,11 @@
 package PostBody;
 
 public class LogInSuccess {
-	private boolean success;
-	public LogInSuccess(boolean success){
+	private String success;
+	private String userName;
+	public LogInSuccess(String success, String userName){
 		this.success = success;
+		this.userName = userName;
 	}
 	
 }

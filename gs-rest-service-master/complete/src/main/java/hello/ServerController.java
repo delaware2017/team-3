@@ -62,7 +62,7 @@ public class ServerController {
 	    }
 	 // From Mobile
 	 // Get current balance
-	 @RequestMapping(value = "/getBalance/{name}/",method = RequestMethod.GET)
+	 @RequestMapping(value = "/getBalance/{userName}/",method = RequestMethod.GET)
 	    public Person getBalance(@PathVariable(value="userName") String userName ){
 		 		Person user = MongoDB.getPerson(userName);
 		 		
@@ -73,7 +73,7 @@ public class ServerController {
 	    public LogInSuccess getBalance(
 	    		@PathVariable(value="userName") String userName,
 	    		@PathVariable(value="password") String password){
-		 		LogInSuccess success = new LogInSuccess (MongoDB.logIn(userName,password));
+		 		LogInSuccess success = new LogInSuccess (MongoDB.logIn(userName,password),userName);
 		 		return success;
 	    }
 	 
