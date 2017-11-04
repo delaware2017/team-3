@@ -73,7 +73,7 @@ public class ServerController {
 	    public LogInSuccess getBalance(
 	    		@PathVariable(value="userName") String userName,
 	    		@PathVariable(value="password") String password){
-		 		LogInSuccess success = new LogInSuccess (MongoDB.logIn(userName,password));
+		 		LogInSuccess success = new LogInSuccess (MongoDB.logIn(userName,password),userName);
 		 		return success;
 	    }
 	 

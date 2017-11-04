@@ -38,7 +38,18 @@ public class leftscroller extends AppCompatActivity
         TextView balance = (TextView) findViewById(R.id.balance);
 
         // Needs to be changed to real time data -- connect to DB
-        balance.setText("Balance: $ " + "5.00");
+        //balance.setText("Balance: $ " + "5.00");
+        new AsyncTask<Integer,Void,Void>(){
+            protected Void doInBackground(Integer... params) {
+                try {
+                    getJSON();
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+                return null;
+            }
+
+        }.execute(1);
 
         FloatingActionButton fab = (FloatingActionButton) findViewById(R.id.fab);
         fab.setOnClickListener(new View.OnClickListener() {
@@ -127,7 +138,7 @@ public class leftscroller extends AppCompatActivity
                 try {
                     // JSONObject jsonObject = response.getJSONObject("UserId")
                    TextView balance = (TextView) findViewById(R.id.balance);
-                   // balance.setText("Balance: " + );
+                    balance.setText("Balance: " + response.getString("balance"));
 //                    JSONArray jsonArray = response.getJSONArray("");
 //                    for(int i =0;i<jsonArray.length();i++) {
 //                        JSONObject user = jsonArray.getJSONObject(i);
