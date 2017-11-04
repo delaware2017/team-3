@@ -3,21 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_53cb0137f62cb8c59b9b0fd06350b5911e214db2/classes.dex" />
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfdbe223d042a65173619eb082a9b5ad148d19fc/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="c507196492a62d8ece90444b5ae5ca1c2d2a6e32">
-        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2464c317e172654204f4b3365be1d02fba6cd616/classes.dex" />
+        sha1="5eabc02641faed938c375be0626b2df06fbda2ea">
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1451265769d8d1f51638fa935ca060db8935619d/classes.dex" />
     </item>
 
 </items>
