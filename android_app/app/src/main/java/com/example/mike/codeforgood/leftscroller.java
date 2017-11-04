@@ -14,16 +14,24 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
-
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+import com.android.volley.toolbox.Volley;
+import org.json.JSONObject;
+import android.os.AsyncTask;
 public class leftscroller extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
-
+    RequestQueue requestQueue;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_leftscroller);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        requestQueue = Volley.newRequestQueue(this);
 
         getSupportActionBar().setTitle("Your Balance");
 
@@ -111,4 +119,33 @@ public class leftscroller extends AppCompatActivity
         drawer.closeDrawer(GravityCompat.START);
         return true;
     }
+    public void getJSON(){
+        JsonObjectRequest jsonObjectRequest =  new JsonObjectRequest( "http://10.88.3.169:8080/getBalance/jkim/",null
+                , new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    // JSONObject jsonObject = response.getJSONObject("UserId")
+                   TextView balance = (TextView) findViewById(R.id.balance);
+                   // balance.setText("Balance: " + );
+//                    JSONArray jsonArray = response.getJSONArray("");
+//                    for(int i =0;i<jsonArray.length();i++) {
+//                        JSONObject user = jsonArray.getJSONObject(i);
+//                        String userId = user.getString("userId");
+//                        Log.d(TAG,userId);
+//                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+        requestQueue.add(jsonObjectRequest);
+    }
 }
+
+
