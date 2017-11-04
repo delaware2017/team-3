@@ -105,6 +105,7 @@
     <orderEntry type="library" exported="" scope="TEST" name="com.android.support.test:exposed-instrumentation-api-publish-0.5" level="project" />
     <orderEntry type="library" exported="" name="com.google.android.gms:play-services-base-10.0.1" level="project" />
     <orderEntry type="library" exported="" scope="TEST" name="junit:junit:4.12@jar" level="project" />
+    <orderEntry type="library" exported="" name="com.mcxiaoke.volley:library:1.0.19@jar" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:appcompat-v7-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:support-media-compat-26.0.0-alpha1" level="project" />
     <orderEntry type="library" exported="" name="com.android.support:recyclerview-v7-26.0.0-alpha1" level="project" />
