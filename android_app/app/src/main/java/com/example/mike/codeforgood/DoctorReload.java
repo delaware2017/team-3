@@ -38,7 +38,19 @@ public class DoctorReload extends AppCompatActivity {
                 if (!amount.equals("")) {
 
                     int numAmount = Integer.parseInt(amount);
-                    getJSON();
+
+                    new AsyncTask<Integer,Void,Void>(){
+                        protected Void doInBackground(Integer... params) {
+                            try {
+                                getJSON();
+                            } catch (Exception e) {
+                                e.printStackTrace();
+                            }
+                            return null;
+                        }
+
+                    }.execute(1);
+
                     //PUSH 'numAmount' TO THE DATABASE/////////
 
 
