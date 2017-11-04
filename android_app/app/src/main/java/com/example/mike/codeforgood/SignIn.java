@@ -27,7 +27,7 @@ public class SignIn extends AppCompatActivity {
             public void onClick(View v) {
                 if (!username.getText().toString().trim().equals("") &&
                         !password.getText().toString().trim().equals("")) {
-                    Intent phone = new Intent(SignIn.this, MainActivity.class);
+                    Intent phone = new Intent(SignIn.this, leftscroller.class);
                     phone.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(phone);
                     finish();
