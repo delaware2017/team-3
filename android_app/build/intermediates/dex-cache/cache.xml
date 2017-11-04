@@ -3,48 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/48da2d023787b2a51f61ab2d4adbf48b4e9c6010/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0963126baca7a75bbdf14e5461c5ed95e9fb294a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/c4f1e207f4b41271a1f9c00e0e183cc72ae26e4b/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f86d8778d51d4b02e0ef2d0916f002cdaa337c75/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/.android/build-cache/d60576e217bd12322144ddf7bd3de2b236e3a20d/output/jars/classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c9462b2864139f352f76bf80c4db9b44adf8f03/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_dfdbe223d042a65173619eb082a9b5ad148d19fc/classes.dex" />
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_53cb0137f62cb8c59b9b0fd06350b5911e214db2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="3f4e5b7c53c6362359ddf4cc4887816594cd5f30">
-        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1451265769d8d1f51638fa935ca060db8935619d/classes.dex" />
+        sha1="c507196492a62d8ece90444b5ae5ca1c2d2a6e32">
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2464c317e172654204f4b3365be1d02fba6cd616/classes.dex" />
     </item>
 
 </items>
