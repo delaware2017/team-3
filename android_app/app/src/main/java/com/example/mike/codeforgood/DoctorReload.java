@@ -41,6 +41,7 @@ public class DoctorReload extends AppCompatActivity {
 
                     int numAmount = Integer.parseInt(amount);
 
+                    Toast.makeText(getApplicationContext(), numAmount + " added to the account", Toast.LENGTH_SHORT);
                     new AsyncTask<Integer,Void,Void>(){
                         protected Void doInBackground(Integer... params) {
                             try {
@@ -54,9 +55,6 @@ public class DoctorReload extends AppCompatActivity {
                     }.execute(1);
 
                     //PUSH 'numAmount' TO THE DATABASE/////////
-
-
-                    Toast.makeText(getApplicationContext(), numAmount + " added to the account", Toast.LENGTH_SHORT);
                 }
                 else {
                     Toast.makeText(getApplicationContext(), "Enter a balance", Toast.LENGTH_SHORT);

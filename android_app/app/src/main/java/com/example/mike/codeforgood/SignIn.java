@@ -21,8 +21,8 @@ public class SignIn extends AppCompatActivity {
         getSupportActionBar().setTitle("Sign In");
         getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#8BC34A")));
 
-        Button login = (Button) findViewById(R.id.login);
-        Button register = (Button) findViewById(R.id.register);
+        Button login = (Button) findViewById(R.id.login1);
+        Button register = (Button) findViewById(R.id.register1);
         Button doctor = (Button) findViewById(R.id.doctor);
 
         final EditText username = (EditText) findViewById(R.id.username);
