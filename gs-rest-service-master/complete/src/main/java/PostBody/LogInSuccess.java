@@ -7,5 +7,11 @@ public class LogInSuccess {
 		this.success = success;
 		this.userName = userName;
 	}
+	public String getSuccess(){
+		return success;
+	}
+	public String getName(){
+		return userName;
+	}
 	
 }
