@@ -9,4 +9,7 @@ public class RetailerObject {
 	public RetailerObject(ArrayList<Retailer> retailList){
 		this.retailList = retailList;
 	}
+	public ArrayList<Retailer> getRetailList(){
+		return retailList;
+	}
 }

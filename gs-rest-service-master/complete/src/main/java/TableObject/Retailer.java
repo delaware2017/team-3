@@ -12,4 +12,11 @@ public class Retailer {
 	public String getName(){
 		return name;
 	}
+	public String getAddress(){
+		return address;
+	}
+	public String getProgram(){
+		return program;
+	}
+	
 }

@@ -9,4 +9,7 @@ public class PurchaseObject {
 	public PurchaseObject(ArrayList<Purchase> purchaseList){
 		this.purchaseList = purchaseList;
 	}
+	public ArrayList<Purchase> getPurchaseList(){
+		return purchaseList;
+	}
 }
