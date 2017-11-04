@@ -4,6 +4,27 @@
     <item
         is-multidex="true"
 <<<<<<< HEAD
+<<<<<<< HEAD
+        jar="C:\Users\Neha\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.19\a8f23f65fc1e522ee4a1a697ee569901a46741fa\library-1.0.19.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="a8f23f65fc1e522ee4a1a697ee569901a46741fa">
+        <dex dex="C:\Users\Neha\Documents\UMD STUFF 2016\new4\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.19_e42ebe562c69bafd6083ee4b1d07460168a24b2d\classes.dex" />
+=======
+        jar="/Users/Atchima/Desktop/CodeForGood/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="054ed152b3530d10a8b2d8290befa4361ee5c86b">
+        <dex dex="/Users/Atchima/Desktop/CodeForGood/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_fb4bbe699e799c6e53f164d276ad5e238f0afebe/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Atchima/Desktop/CodeForGood/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+>>>>>>> 593dfebbb0fa5934c23e1aa70243623e22c6457c
+=======
+<<<<<<< HEAD
         jar="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
@@ -122,11 +143,15 @@
         is-multidex="true"
         jar="/Users/mike/.android/build-cache/306c00364b3fc5e47420e11fcd9cbd8f61808bef/output/jars/classes.jar"
 >>>>>>> be4b1e0178f9f174f596ff92e955e4161cda3e69
+>>>>>>> cff81e6e96d626db9e1fb87f846105e976047340
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
 <<<<<<< HEAD
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+<<<<<<< HEAD
+        <dex dex="/Users/Atchima/Desktop/CodeForGood/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_2e046f3c3bff618a273a10a7f29004e6494a3fa6/classes.dex" />
+=======
 <<<<<<< HEAD
         <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d29c94a1bd77248673ee8fe412eddce1b57b12bd\classes.dex" />
 =======
@@ -145,6 +170,7 @@
         <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4394e5e361ae4ef9fbad50d41eaee0e7b95ea182/classes.dex" />
 >>>>>>> 009deefc0b32c85dfbf3da169c90e12435eb5b55
 >>>>>>> be4b1e0178f9f174f596ff92e955e4161cda3e69
+>>>>>>> cff81e6e96d626db9e1fb87f846105e976047340
     </item>
 
 </items>

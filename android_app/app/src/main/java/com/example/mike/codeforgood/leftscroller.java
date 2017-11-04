@@ -114,7 +114,7 @@ public class leftscroller extends AppCompatActivity
             startActivity(new Intent(leftscroller.this, leftscroller.class));
         } else if (id == R.id.nav_gallery) {
             // Location -- Google Maps
-            //startActivity(new Intent(leftscroller.this, googlemaps.class));
+            startActivity(new Intent(leftscroller.this, google_maps.class));
         } else if (id == R.id.nav_slideshow) {
             // Sign Out
             startActivity(new Intent(leftscroller.this, SignIn.class));
