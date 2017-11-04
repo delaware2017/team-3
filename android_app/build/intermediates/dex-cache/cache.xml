@@ -12,12 +12,48 @@
     </item>
     <item
         is-multidex="true"
+        jar="/Users/Atchima/.android/build-cache/546ef8d77dbdd04570c83e5f3e586de28f5e4bf6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_563d3ea0cde552d5e69d25b29d4fffe7001877ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Atchima/.android/build-cache/0b5d0294ba1b634258d7c90336ae269de5c62696/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_762372d67ea4c1d69d6a96bf900433ec4622d67b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Atchima/.android/build-cache/61ea0ced3175254f71ab921ab11b7df0511f0e0a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4c879186c7f7b9fa9f6bc70e60adef032bcf5b4e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="5eabc02641faed938c375be0626b2df06fbda2ea">
+        sha1="70a261bd235018f85d8b121e3847bbf3d449a4e6">
         <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1451265769d8d1f51638fa935ca060db8935619d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/Atchima/.android/build-cache/11877c86f8c024bfb887013a486a81a19f6824e4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.1"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/Users/Atchima/Desktop/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b1e3d565717206a7f66975c3f7fc6edc0557f87d/classes.dex" />
     </item>
 
 </items>
