@@ -42,4 +42,13 @@
         app:layout_constraintBottom_toTopOf="@+id/tokenID"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cancelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="23dp"
+        android:text="Cancel"
+        app:layout_constraintStart_toStartOf="@+id/tokenID"
+        app:layout_constraintTop_toBottomOf="@+id/tokenID" />
 </android.support.constraint.ConstraintLayout>

@@ -17,6 +17,7 @@ public class Register extends AppCompatActivity {
         getSupportActionBar().setTitle("Registration");
 
         Button proceed = (Button) findViewById(R.id.proceedButton);
+        Button cancelButton = (Button) findViewById(R.id.cancelButton);
         final EditText tokenID = (EditText) findViewById(R.id.tokenID);
 
         proceed.setOnClickListener(new View.OnClickListener() {
@@ -24,13 +25,19 @@ public class Register extends AppCompatActivity {
             public void onClick(View view) {
                 if(!tokenID.getText().toString().equals(""))
                 {
-                    startActivity(new Intent(Register.this, leftscroller.class));
+                    startActivity(new Intent(Register.this, createlogin.class));
                 }
                 else
                 {
                     Toast.makeText(getApplicationContext(), "Please enter a valid " +
                             "token ID.", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+        cancelButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Register.this, SignIn.class));
             }
         });
     }
