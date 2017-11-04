@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SignIn"
+        <activity
+            android:name=".SignIn"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -17,14 +18,13 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MainActivity"
-            android:screenOrientation="portrait">
-
-        </activity>
-        <activity android:name=".Register"
-            android:screenOrientation="portrait">
-
-        </activity>
+        <activity
+            android:name=".Register"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".leftscroller"
+            android:label="@string/title_activity_leftscroller"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>

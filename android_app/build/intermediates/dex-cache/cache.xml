@@ -3,156 +3,21 @@
 
     <item
         is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\8a4798e1856e6bd99768bd4c433b9ede1418b440\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_7c2c86c30bb44130d4d54b27fe4dde0cf409db6c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\ed215756951b54c344c5642138244cec781525d5\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_872db99a1ab09bdbcac49dab3ed99f0b5435a1a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\9c03ac2655ceb32a5237239ccfb776ac0e032e2f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_62158cf9dfb3ca7f38de6c4b8087ea351ce7d700\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\c2b4b6f4addd0496db2e098e9fdc87ee708aabde\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_32bdc57b37a0ede1e1b8384ca133735a173a1308\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\26.0.0-alpha1\support-annotations-26.0.0-alpha1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="023ee503b631f69511e335a061ea008f8da60f40">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-26.0.0-alpha1_d78158656612d5fc67d0a773403560a2ff172e03\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\481689ad6ad1e1fa7002f7eabf9c55fca3e26502\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_9e7e330c049f8b6d465a1c55eb6f961ed910e22d\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\870943d3fbe09ce45af6ae556490042d38f4e1da\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="9935891f23923f39d002087085d9696568a9f657">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3005ee31ab8cc1e5f3efd9a2c974feb8da0052a9\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\02f3baef2b39a60181f3f14474c8bdfc314cb45f\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="952944218ecedea1554a513dec0c14d570642843">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_09d05ae289cfaf5181d2ac61ac8ab6ae8e9117cd\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\78d874f0f54ca0a3bcb0f3565db3d89ced557107\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_3df25ef18c2c25429c8d288d87955d9a62a372a1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\7a3c3cffbb655ee52fa2ddc9b3d6709db5099447\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_665cbe8ed12112ef89f5e6436904d22b453cedf7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_b0e17148ec1a6a2f71d7e56f0059620e168b7fd8\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\0c56b4299a52daa06d1716212ae1a547fe3fba8d\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bfeed613b4605ae76586c1832637cbebd5ce20a7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="b72b68c943e7350a5a19c89eaa22d31465826725">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1ce7a3e35a29616a9a1d592b623b1bd7e78e95bb\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\6fe1bfad3f70edc7139d197c38b5b38cd1689345\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_455f4ef7ccb21165063b1729f46e85dfeefc1abc\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\03b327ba9cb632abf9d9ec6b36f4f0c95a75a5ae\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="26.0.1"
-        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_66fc6365a4c0915a5ef170098a51a8a6f83fff7b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
         sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d29c94a1bd77248673ee8fe412eddce1b57b12bd\classes.dex" />
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_53cb0137f62cb8c59b9b0fd06350b5911e214db2/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="C:\Users\hamid\.android\build-cache\5245b1f7ee3b6f197923ed26cf074e3263d14c31\output\jars\classes.jar"
+        jar="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
         optimize="true"
         revision="26.0.1"
-        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
-        <dex dex="C:\Users\hamid\Documents\GitHub\team-3\android_app\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a855910d5346e72a297754f02fa2697fff5fe3d8\classes.dex" />
+        sha1="c507196492a62d8ece90444b5ae5ca1c2d2a6e32">
+        <dex dex="/Users/mike/AndroidStudioProjects/team-3/android_app/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_2464c317e172654204f4b3365be1d02fba6cd616/classes.dex" />
     </item>
 
 </items>
