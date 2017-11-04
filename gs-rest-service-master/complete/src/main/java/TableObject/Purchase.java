@@ -5,13 +5,13 @@ import java.util.Date;
 public class Purchase {
 	private double amount;
 	private Date date;
-	private String name;
-	Purchase(double amount, Date date, String name){
+	private String userName;
+	public Purchase(double amount, Date date, String userName){
 		this.amount = amount;
 		this.date = date;
-		this.name = name;
+		this.userName = userName;
 	}
 	public String getName(){
-		return name;
+		return userName;
 	}
 }

@@ -9,12 +9,13 @@ public class Person {
 	public int famSize;
 	private String program;
 
-	public Person(String name, int balance, String userName, String password, int famSize) {
+	public Person(String name, double balance, String userName, String password, int famSize, String program) {
 		this.name = name;
 		this.balance = balance;
 		this.userName = userName;
 		this.password = password;
 		this.famSize = famSize;
+		this.program = program;
 	}
 
 	public String getName() {
@@ -28,6 +29,9 @@ public class Person {
 	}
 	public double getBalance(){
 		return balance;
+	}
+	public void setBalance(double balance){
+		this.balance = balance;
 	}
 	public String getProgram(){
 		return program;
