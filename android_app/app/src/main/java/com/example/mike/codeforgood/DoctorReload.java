@@ -28,7 +28,7 @@ public class DoctorReload extends AppCompatActivity {
         setContentView(R.layout.activity_doctor_reload);
 
         reText = (EditText) findViewById(R.id.amount);
-        //user = (EditText) findViewById(R.id.);
+        user = (EditText) findViewById(R.id.name);
 
         getSupportActionBar().setTitle("Reload");
 
@@ -67,8 +67,8 @@ public class DoctorReload extends AppCompatActivity {
     }
 
     public void getJSON(){
-
-        JsonObjectRequest jsonObjectRequest =  new JsonObjectRequest( "http://10.88.3.169:8080/reload/jkim/amount/",null
+        String username = user.getText().toString().trim();
+        JsonObjectRequest jsonObjectRequest =  new JsonObjectRequest( "http://10.88.3.169:8080/reload/username/amount/",null
                 , new Response.Listener<JSONObject>() {
             @Override
             public void onResponse(JSONObject response) {
