@@ -5,16 +5,28 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
+
+import org.json.JSONObject;
+
 public class DoctorReload extends AppCompatActivity {
+
+    RequestQueue requestQueue;
+    EditText reText;
+    String amount;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_doctor_reload);
 
-        final EditText reText = (EditText) findViewById(R.id.amount);
+        reText = (EditText) findViewById(R.id.amount);
 
         getSupportActionBar().setTitle("Reload");
 
@@ -22,11 +34,11 @@ public class DoctorReload extends AppCompatActivity {
         reload.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String amount = reText.getText().toString().trim();
+                amount = reText.getText().toString().trim();
                 if (!amount.equals("")) {
 
                     int numAmount = Integer.parseInt(amount);
-
+                    getJSON();
                     //PUSH 'numAmount' TO THE DATABASE/////////
 
 
@@ -38,5 +50,35 @@ public class DoctorReload extends AppCompatActivity {
             }
         });
 
+    }
+
+    public void getJSON(){
+
+        JsonObjectRequest jsonObjectRequest =  new JsonObjectRequest( "http://10.88.3.169:8080/reload/jkim/amount/",null
+                , new Response.Listener<JSONObject>() {
+            @Override
+            public void onResponse(JSONObject response) {
+                try {
+                    // JSONObject jsonObject = response.getJSONObject("UserId")
+                    TextView balance = (TextView) findViewById(R.id.balance);
+
+                    balance.setText("Balance: " + response.getString("balance"));
+//                    JSONArray jsonArray = response.getJSONArray("");
+//                    for(int i =0;i<jsonArray.length();i++) {
+//                        JSONObject user = jsonArray.getJSONObject(i);
+//                        String userId = user.getString("userId");
+//                        Log.d(TAG,userId);
+//                    }
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError error) {
+
+            }
+        });
+        requestQueue.add(jsonObjectRequest);
     }
 }
