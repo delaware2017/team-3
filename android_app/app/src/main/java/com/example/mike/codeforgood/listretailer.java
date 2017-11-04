@@ -20,6 +20,7 @@ public class listretailer extends AppCompatActivity implements ListAdapter{
     private final Activity activity;
     private final JSONArray jsonArray;
 
+
     private listretailer(Activity activity, JSONArray jsonArray){
         assert activity != null;
         assert jsonArray != null;
