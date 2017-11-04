@@ -1,5 +1,6 @@
 package com.example.mike.codeforgood;
 
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -18,7 +19,7 @@ import org.json.JSONObject;
 public class DoctorReload extends AppCompatActivity {
 
     RequestQueue requestQueue;
-    EditText reText;
+    EditText reText, user;
     String amount;
 
     @Override
@@ -27,6 +28,7 @@ public class DoctorReload extends AppCompatActivity {
         setContentView(R.layout.activity_doctor_reload);
 
         reText = (EditText) findViewById(R.id.amount);
+        //user = (EditText) findViewById(R.id.);
 
         getSupportActionBar().setTitle("Reload");
 
